@@ -20,17 +20,15 @@ Router::add('URL', 'PAGE', 'ROUTE-NAME [opt]');
 Router::add('home', 'home.php');
 Navigating to yourwebsite.sth/home will load home.php
 ```
-###Examples
+## Examples
 ```sh
 Router::add('home', 'home.php', 'home');
 Router::add('home', 'home.php');
 Router::add('lives/home/', 'live.php', 'lives');
 ```
-###Call route by name
+## Call route by name
 ```sh
  <a href="<?php Router::name('home'); ?>">Home</a>
  or just by URL specified
  <li><a href="home">Lives</a></li>
 ```
-
-[International Burch University](http:ibu.edu.ba).
